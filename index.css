@@ -1,10 +1,10 @@
-body {
+/* body {
     background:url(433787637_7421915634558024_7498531986906054790_n.jpg) ;
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
 
-}
+} */
 
 /* Style the top menubar */
 .menubar {
@@ -22,7 +22,7 @@ body {
   .menubar a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #3bfb00;
     text-align: center;
     padding: 12px 14px;
     text-decoration: none;
@@ -33,8 +33,8 @@ body {
   
   /* Change color on hover */
   .menubar a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #0cf900;
+    color: rgb(34, 227, 16);
     
   }
 
@@ -43,7 +43,7 @@ body {
     float:none;
     position: absolute;
     left: 50%;
-    color:white;
+    color:rgb(0, 0, 0);
     font-size:50px;
 
 }
