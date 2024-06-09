@@ -70,17 +70,20 @@ body {
 
 #leaves-container {
   position: relative;
+ 
   width: 100%;
   height: 100%;
   pointer-events: none;
 }
 
 .leaf {
+  
   position: absolute;
   width: 20px;
   height: 20px;
+  top:-50x;
   
-  background-color: #00ff05; 
+  
   border-radius: 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -89,10 +92,13 @@ body {
 
 @keyframes fall {
   0% {
+      background-color: #00ff05;
       transform: translateY(-100px);
       opacity: 0;
   }
   100% {
+      background-color: #00ff05; 
+
       transform: translateY(100vh);
       opacity: 1;
   }
@@ -180,11 +186,11 @@ body {
   
 }
 #contpic{
-  
-  float: right;
+  position: relative;
   width: 300px;
   height: auto;
-  float: right;
+  float:right;
+  
 }
 
 
@@ -202,10 +208,10 @@ body {
 }
 
 #contform{
-  align-items: center;
+  position: relative;
   max-width: fit-content;
+  float:none;
   
-  float: left;
 
 }
 
@@ -247,8 +253,7 @@ body {
 
 #contact{
   background-color: #05ff00d2;
-  align-items: center;
-  justify-content: center;
+  
 
 }
 #welcome-image{
@@ -277,6 +282,9 @@ p {
 
 .navbar {
   background-color: #ffffff;
+  padding: 10px 20px ;
+  margin-bottom: -20px;
+  
   
   
 }
@@ -314,6 +322,27 @@ p {
 .form-group{
   align-items: center;
   justify-content: center;
+}
+.left-container{
+  float: left;
+  max-width: 50%;
+
+}
+.right-container{
+  float: right;
+  max-width: 50%;
+  
+}
+.img-contact{
+  width: 400px;
+  height: auto;
+  text-align: center;
+  /* display: flex;
+  flex-direction: column; */
+  
+  /* left: 50%; Remove this line */
+  display: block; /* Set the image as a block element */
+  margin-bottom: 100px; 
 }
 
 

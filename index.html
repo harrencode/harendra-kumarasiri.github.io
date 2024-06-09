@@ -5,6 +5,10 @@
     <title>Harendra Kumarasiri</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+
+    <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">    <link rel="stylesheet" href="index.css" />
@@ -13,7 +17,7 @@
   </head>
   <body>
     
-      <nav class="source-code-pro-p navbar sticky-top navbar-expand-lg  padding: 10px 20px : " >
+      <nav class="source-code-pro-p navbar sticky-top navbar-expand-lg " >
         
         <div class="container">
             <!-- Left corner -->
@@ -55,23 +59,29 @@
 
       <div id="leaves-container">  
   </div>
+
+    <div>
+        <div>
+            <h1 class="poppins-medium headline mt-5">
+                <span class="animate">H</span>
+                <span class="animate" style="animation-delay: 0.2s;">e</span>
+                <span class="animate" style="animation-delay: 0.4s;">l</span>
+                <span class="animate" style="animation-delay: 0.6s;">l</span>
+                <span class="animate" style="animation-delay: 0.8s;">o</span>
+                <span class="animate" style="animation-delay: 0.9s;">!</span>
+            </h1>
+        </div>
+        <div>
+            <!-- Replace with your person image -->
+            <img src="hero.png" alt="colseup" class="hero" >
+
+        </div>
+    </div>
+      
+       
+
+  
     
-        <h1 class="poppins-medium headline mt-5">
-          <span class="animate">H</span>
-          <span class="animate" style="animation-delay: 0.2s;">e</span>
-          <span class="animate" style="animation-delay: 0.4s;">l</span>
-          <span class="animate" style="animation-delay: 0.6s;">l</span>
-          <span class="animate" style="animation-delay: 0.8s;">o</span>
-          <span class="animate" style="animation-delay: 0.9s;">!</span>
-        </h1>
-        
-          <!-- Replace with your person image -->
-          <img src="hero.png" alt="colseup" class="hero" >
-          
-        
-
-
-
         <div class="text-center float-top container" >
           
           <h1 class="poppins-light name-text me-5">I'm Harendra</h1>
@@ -196,105 +206,93 @@
     <br>
     <br>
     <div class="container">
-        <h2>Projects</h2>
-        <p>Projects I have completed Recently</p>
-      
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col">
-            <div class="card">
-              <img src="dspms.jpeg" class="card-img-top" id="imagecard" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Daily Site Progress Management</h5>
-                <p class="card-text">I am doing this project to design and develop a computer based daily site progress management system for construction companies using C# and MySQL Visual Studio . NET Framework</p>
-              </div>
+      <h2>Projects</h2>
+      <p>Projects I have completed Recently</p>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="dspms.jpeg" class="card-img-top" id="imagecard" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Daily Site Progress Management</h5>
+              <p class="card-text">I am doing this project to design and develop a computer based daily site progress management system for construction companies using C# and MySQL Visual Studio . NET Framework</p>
             </div>
           </div>
-          <div class="col">
-            <div class="card">
-              <img src="under-construction.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Highway-bus-mate</h5>
-                <p class="card-text">I am creating this application to help those who use highway buses in Sri Lanka. This app will help people to view bus time table, Seat reservation, online paying for tickets, E-ticket concept</p>
-              </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="under-construction.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Highway-bus-mate</h5>
+              <p class="card-text">I am creating this application to help those who use highway buses in Sri Lanka. This app will help people to view bus time table, Seat reservation, online paying for tickets, E-ticket concept</p>
             </div>
           </div>
-          <div class="col">
-            <div class="card">
-              <img src="under-construction.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">To DO list</h5>
-                <p class="card-text">I am creating this application to help any person to plan his upcoming days.This app willl be able to show reminders,alarms,miissed task warning...etc</p>
-              </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="under-construction.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">To DO list</h5>
+              <p class="card-text">I am creating this application to help any person to plan his upcoming days.This app willl be able to show reminders,alarms,miissed task warning...etc</p>
             </div>
           </div>
-          
-          
-        
-      </div>  
+        </div>  
+      </div>
+    </div>  
     <br>
     <br>
 
   </section>
+  
+
   
 
   <section id="contact">
     <br>
-    <br> 
+    <br>
     <div class="container">
-      <h2>Contact Me</h2>
-      <p>Get in touch with me today!</p>
-      
+        <h2>Contact Me</h2>
+        <p>Get in touch with me today!</p>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card-body card" id="contform">
+                    <form action="contact.php" method="post" class="needs-validation" novalidate>
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                            <div class="invalid-feedback">Please enter your name.</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                            <div class="invalid-feedback">Please enter a valid email address.</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Topic:</label>
+                            <input type="text" class="form-control" id="topic" name="topic">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea class="form-control" id="message" name="message" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary mt-3">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="output-onlinegiftools.gif" alt="Tech Support" class="img-contact">
+            </div>
+        </div>
+    </div>
+</section>
+    <section id="footer">
+        <div class="container">
+            <a href="https://www.flaticon.com/free-animated-icons/customer-service" title="customer service animated icons">All Icons used in this website are created by Freepik - Flaticon</a>
 
-        <div class="card" id="contform">
-          
-            
-            
-            
-              <div class="card-body">
-                
-                  <form action="contact.php" method="post" class="needs-validation" novalidate>
-                    <div class="form-group">
-                        <label for="name">Name:</label>
-                        <input type="text" class="form-control" id="name" name="name" required >
-                        <div class="invalid-feedback">Please enter your name.</div>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="email">Email:</label>
-                        <input type="email" class="form-control" id="email" name="email" required>
-                        <div class="invalid-feedback">Please enter a valid email address.</div>
-                    </div>
-                    <div class="form-group">
-                        <label for="subject">Topic:</label>
-                        <input type="text" class="form-control" id="topic" name="topic">
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message:</label>
-                        <textarea class="form-control" id="message" name="message" rows="4"></textarea>
-                    </div>
-                    <br>
-                    <br>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
-              </div>
-            
-          </div>
-        
-          <div>
-            <img src="tech-support.gif" alt="cont" id="contpic">
-          </div>
-      </div>
+        </div>
 
-  </section>
-  <script src="index.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </section>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   
-
-
-   
-      
-   
-    
-    
   </body>
 </html>

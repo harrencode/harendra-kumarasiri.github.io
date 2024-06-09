@@ -1,18 +1,4 @@
-// const numLeaves = 30;
-// const homeSection = document.querySelector('#home');
-// const homeHeight = homeSection.offsetHeight;
 
-// for (let i = 0; i < numLeaves; i++) {
-//     const leaf = document.createElement('div');
-//     leaf.className = 'leaf';
-//     leaf.style.left = `${Math.random() * 100}vw`;
-//     leaf.style.animationDuration = `${Math.random() * 3 + 2}s`; // Vary animation duration
-//     leaf.style.animationName = 'fall';
-//     leaf.style.animationTimingFunction = 'linear';
-//     leaf.style.animationIterationCount = 'infinite';
-//     leaf.style.animationDirection = 'normal';
-//     document.body.appendChild(leaf);
-// }
 
 document.addEventListener('DOMContentLoaded', () => {
     const leavesContainer = document.getElementById('leaves-container');
