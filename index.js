@@ -13,3 +13,11 @@ document.addEventListener('DOMContentLoaded', () => {
         leavesContainer.appendChild(leaf);
     }
 });
+
+const toggleSwitch = document.getElementById('toggleSwitch');
+        const body = document.body;
+
+        toggleSwitch.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            body.classList.toggle('light-mode');
+        });
