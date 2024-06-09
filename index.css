@@ -11,6 +11,17 @@ body {
   
 }
 
+@keyframes jump {
+  0% { transform: translateY(0) scale(1);  }
+  50% { transform: translateY(-5px) scale(1.1);  }
+  100% { transform: translateY(0) scale(1); }
+}
+
+.animate {
+  display: inline-block;
+  animation: jump 1s infinite;
+}
+
 .poppins-light {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
@@ -35,6 +46,14 @@ body {
   font-weight: 500;
   font-style: normal;
 }
+
+.source-code-pro-p {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
 
 
 
@@ -268,6 +287,7 @@ p {
 .navbar-nav .nav-link {
   color: #000000;
   padding: .5px .5px;
+  
   
 
 }
