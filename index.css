@@ -171,13 +171,14 @@ body {
 .hero {
   width: 400px;
   height: auto;
+  margin: auto;
   
   /* display: flex;
   flex-direction: column; */
   
   /* left: 50%; Remove this line */
-  /* Set the image as a block element */
-  margin: auto; /* Center horizontally */
+  display: block; /* Set the image as a block element */
+  margin: 0 auto; /* Center horizontally */
   margin-top: -100px;
   margin-bottom: 4px;
   z-index: 10;
@@ -195,6 +196,7 @@ body {
 
   #herofull {
     margin-top: 10px;
+    margin: auto;
   }
 }
 
