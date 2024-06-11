@@ -332,12 +332,18 @@ body {
   color:#7c7b76;
 }
 
+#footer{
+  background-color: #000000;
+  overflow: hidden;
+  z-index: 200;
+}
 
 
 .navbar {
   background-color: #ffffff;
   padding: 10px 20px ;
   margin-bottom: -20px;
+  z-index: 100;
   
   
   
