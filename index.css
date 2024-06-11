@@ -260,10 +260,7 @@ body {
 }
 
 #contform{
-  position: relative;
- 
-  float:none;
-
+  
    
   
   box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2); 
@@ -271,6 +268,9 @@ body {
    
   backdrop-filter: blur(14px); 
   background-color: rgba(255, 255, 255, 0.2); 
+  max-width: 350px;
+  min-width: 200px;
+  margin: auto;
   
   
 
@@ -314,6 +314,9 @@ body {
 
 #contact{
   background-color: #05ff00d2;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
   
 
 }
@@ -381,7 +384,7 @@ body {
   
 }
 .img-contact{
-  width: 400px;
+  width: 350px;
   height: auto;
   text-align: center;
   /* display: flex;
@@ -390,6 +393,7 @@ body {
   /* left: 50%; Remove this line */
   display: block; /* Set the image as a block element */
   margin-bottom: 100px; 
+  margin: auto;
 }
 
 /* glow nft card.scss is used here */
