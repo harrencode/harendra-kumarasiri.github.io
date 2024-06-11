@@ -197,6 +197,9 @@ body {
   #herofull {
     margin-top: 10px;
     margin: auto;
+    align-items: center;
+    margin-left: opx;
+
   }
 }
 
