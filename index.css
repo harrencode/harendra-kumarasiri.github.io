@@ -191,35 +191,40 @@ body {
     margin-right: 0;
 
   }
+
+  #herofull {
+    margin-top: 10px;
+  }
 }
 
+
+
+
+
+
 #about-card {
-  /* width: 32rem;
-  align-items: end;
-  margin-right: 80px; */
-  position: relative;
-  float: right;
+  
   width: 400px;
+  margin: auto;
   min-height: 250px;
-  background: rgba( 255, 255, 255, 0.15 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 18px );
-  -webkit-backdrop-filter: blur( 18px );
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 1rem;
   padding: 1.5rem;
   z-index: 10;
   color: whitesmoke;
-
   
-
 }
 
 #herofull {
   width: 300px;
   height: auto;
   margin-left: 80px;
-  margin-top: -100px;
+  margin-top: -30px;
+  
   
 }
 #contpic{
