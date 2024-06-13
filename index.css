@@ -232,8 +232,8 @@ body {
   margin-top: 5px;
 }
 
-.card {
-  border: 2px solid #05ff00d2; /* Add 'solid' for the border style */
+/* .card {
+  border: 2px solid #05ff00d2; 
   border-radius: 2px;
 
   
@@ -245,7 +245,7 @@ body {
   background-color: rgba(255, 255, 255, 0.2);
   
   
-}
+} */
 
 #contform{
   
@@ -545,3 +545,35 @@ nav a.dark-mode {
   width: 24px;
   height: 24px;
 }
+
+/* cards for toolbox  */
+
+
+.imgtool {
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: auto;
+  height: 90%;
+  user-select: none;
+}
+
+/*===== CARD =====*/
+
+
+.product-image {
+  
+  height: 230px;
+  width: 100%;
+  
+  transition: transform 500ms ease-in-out;
+  filter: drop-shadow(5px 10px 15px rgba(8, 9, 13, 0.4));
+}
+
+
+.product-image:hover {
+  transform: translate(0, -1rem) ;
+}
+
+
+
