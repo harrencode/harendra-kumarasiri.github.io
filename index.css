@@ -614,12 +614,17 @@ nav a.dark-mode {
 }
 
 .cardcont-img{
+  padding-bottom: 20px;
   margin: auto;
   height: 200px;
-  user-select: none;
+  
 }
 
 .contbutton{
   width: 50%;
   margin: auto;
+}
+
+.freepikbut{
+  margin-top: -30px;
 }
