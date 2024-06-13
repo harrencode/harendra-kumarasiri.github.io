@@ -1,13 +1,10 @@
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 #footer{
     position: relative;
 }
 
-html, body {
-    overflow-x: hidden;
-}
 
 body {
     font-family: "Roboto";
@@ -230,3 +227,4 @@ blockquote {
         opacity: 1;
     }
 }
+
