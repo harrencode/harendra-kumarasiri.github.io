@@ -121,32 +121,7 @@ body {
 
 
 
-.menubar {
-    
-    background-color: #333;
-    opacity:75% ;
-    float: left;
-    position: fixed;
-    
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  /* Style the menubar links */
-  .menubar a {
-    float: left;
-    display: block;
-    color: #3bfb00;
-    text-align: center;
-    padding: 12px 14px;
-    text-decoration: none;
-    
-    
-    
-  }
-  
-  /* Change color on hover */
-  
+
 
 
 .welcome-sec {
@@ -351,8 +326,8 @@ body {
 
 .navbar {
   background-color: #ffffff;
-  padding: 10px 20px ;
-  margin-bottom: -20px;
+  /* padding: 10px 20px ;
+  margin-bottom: -20px; */
   z-index: 100;
   
   
@@ -363,25 +338,32 @@ body {
 }
 
 .navbar-nav .nav-link {
-  color: #000000;
   padding: .5px .5px;
+  color: #000000;
   
 
 }
+.navbar-brand{
+  color: #000000!important;
+}
+
 
 
 .nav-link:hover {
   color: #000000ca; 
-  background-color: #15ff008f; /* Background color on hover */
+   /* Background color on hover */
+   background-color: whitesmoke;
   border-radius: 5px;  /* Add a slight border radius for a softer look */
-  margin-left: -.5px;  /* Create left margin for visible expansion */
-  margin-right: -.5px; /* Create right margin for visible expansion */
+  margin-top: -1px;  /* Create left margin for visible expansion */
+  margin-bottom: -1px; /* Create right margin for visible expansion */
+  font-weight: bold;
+
 }
 
-.nav-item .nav-link.active {
-  color: rgb(255, 0, 0);
+.active-nav-link {
+  color: #cc00ff !important; /* Example color */
+  /* font-weight: bold; */
 }
-
 
 .card-title{
   text-align: center;
@@ -537,4 +519,29 @@ body {
   }
 }
 
+/* dark mode  */
 
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+nav.dark-mode {
+  background-color: #333333;
+}
+
+nav a.dark-mode {
+  color: #ffffff !important;
+}
+
+.btn-dark-mode {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.btn-dark-mode img {
+  width: 24px;
+  height: 24px;
+}
