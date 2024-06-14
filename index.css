@@ -105,14 +105,14 @@ body {
 
 @keyframes fall {
   0% {
-      background-color: #00ff05;
+      background-color: #370065;
       transform: translateY(-100px);
       opacity: 0;
   }
   
   
   100% {
-      background-color: #00ff05; 
+      background-color: #cd92ff; 
 
       transform: translateY(100vh);
       opacity: 1;
@@ -284,8 +284,8 @@ body {
 
 
 #about {
-  background-color: #05ff00d2;
-  color:#00000078;
+  background-color: #dbc8eb;
+  
 }
 
 
@@ -297,6 +297,7 @@ body {
 
 #projects {
   background-color: #ffffff;
+  
 }
 
 
@@ -344,15 +345,15 @@ body {
 
 }
 .navbar-brand{
-  color: #000000!important;
+  color: #000000;
 }
 
 
 
 .nav-link:hover {
-  color: #000000ca; 
+  color: #000000; 
    /* Background color on hover */
-   background-color: whitesmoke;
+   background-color: rgb(250, 232, 232);
   border-radius: 5px;  /* Add a slight border radius for a softer look */
   margin-top: -1px;  /* Create left margin for visible expansion */
   margin-bottom: -1px; /* Create right margin for visible expansion */
@@ -521,18 +522,54 @@ body {
 
 /* dark mode  */
 
+
 body.dark-mode {
   background-color: #121212;
   color: #ffffff;
+
+  
 }
+/* changing color of sections with dark mode using id */
+body.dark-mode #about {
+  background-color: #370065;
+  color: #ffffff;
+}
+
+/* important 
+.card {
+  background-color: var(--light-background);
+  color: var(--light-text);
+}
+.dark-mode .card {
+  background-color: var(--dark-background);
+  color: var(--dark-text);
+} */
+
 
 nav.dark-mode {
   background-color: #333333;
+  color:#6f00ff;
 }
 
-nav a.dark-mode {
-  color: #ffffff !important;
+/* nav a.dark-mode {
+  color: #00ff4c ;
+  
+} */
+
+.nav-link.dark-mode {
+  color: #ffffff ;
+
 }
+.navbar-nav.dark-mode {
+  color: #ffffff!important;
+}
+.nav-link:hover.dark-mode {
+  background-color: #000000 ;
+}
+.navbar-brand.dark-mode{
+  color: #ffffff;
+}
+
 
 .btn-dark-mode {
   background: none;
@@ -545,6 +582,7 @@ nav a.dark-mode {
   width: 24px;
   height: 24px;
 }
+
 
 /* cards for toolbox  */
 
