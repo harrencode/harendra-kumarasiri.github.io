@@ -69,13 +69,17 @@ h1 {
     clear: both;
 }
 
-.timeline-content {
+.timeline-content{
     position: relative;
     width: 45%;
     padding: 10px 30px;
     border-radius: 15px;
     background: #00ff7b;
     box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
+     /* Center the text inside the card */
+    text-align: justify;
+    
+    
 }
 
 .timeline-content::after {
@@ -113,13 +117,7 @@ h1 {
     margin-left: 20px;
 }
 
-.timeline-item .timeline-img-header {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("https://picsum.photos/1000/800/?random") center center no-repeat;
-    background-size: cover;
-}
-
 .timeline-img-header {
-    height: 200px;
     position: relative;
     margin-bottom: 20px;
 }
@@ -129,6 +127,21 @@ h1 {
     position: absolute;
     bottom: 5px;
     left: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional background for text visibility */
+    padding: 5px; /* Optional padding for better text readability */
+}
+
+.timeline-image {
+    width: 100%;
+    height: auto;
+    border-radius: 15px; /* Optional: to match the styling */
+}
+
+.timeline-content h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+    margin:auto;
 }
 
 blockquote {
@@ -146,6 +159,21 @@ blockquote {
     position: absolute;
     top: 0;
     right: 0;
+    border-radius:20% ;
+}
+
+.card-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+}
+
+.card-buttons .btn {
+    margin-right: 10px;
+}
+
+.card-buttons .btn:last-child {
+    margin-right: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -158,8 +186,8 @@ blockquote {
     }
 
     .timeline .timeline-content {
-        max-width: 100%;
-        width: auto;
+        min-width: 300px;
+        width: 60%;
         margin-left: 70px;
     }
 
@@ -179,6 +207,20 @@ blockquote {
         border-color: transparent #f5f5f5 transparent transparent;
     }
 }
+
+.timeline-text {
+    margin: 15px;
+    
+    
+}
+.timeline-title{
+    text-align: center;
+    margin:100px ;
+    
+    
+}
+
+
 
 .container1 {
     background: #00ff62;

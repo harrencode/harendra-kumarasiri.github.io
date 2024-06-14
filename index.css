@@ -622,9 +622,15 @@ nav a.dark-mode {
 
 .contbutton{
   width: 50%;
-  margin: auto;
+  margin:auto;
+  align-items: center;
+  justify-content:center;
 }
 
 .freepikbut{
   margin-top: -30px;
+}
+.abut{
+  align-items: center;
+  justify-content: center;  
 }
