@@ -556,9 +556,32 @@ nav a.dark-mode {
   margin: auto;
   height: 90%;
   user-select: none;
+  
+}
+.imgabout {
+  padding-left: auto;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  
+  
+  
+  user-select: none;
+  
 }
 
+.about-image{
+  width: ;
+  transition: transform 500ms ease-in-out;
+  filter: drop-shadow(5px 10px 15px rgba(8, 9, 13, 0.4));
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
 
+.about-image:hover {
+  transform: translate(0, -1rem) ;
+}
 
 
 /*===== CARD =====*/
@@ -568,9 +591,11 @@ nav a.dark-mode {
   
   height: 230px;
   width: 100%;
-  
+  padding: 5%;
   transition: transform 500ms ease-in-out;
   filter: drop-shadow(5px 10px 15px rgba(8, 9, 13, 0.4));
+  text-align: center;
+  
 }
 
 
