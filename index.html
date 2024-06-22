@@ -106,7 +106,14 @@
             <h5 class="card-title">About Me</h5>
             <h6 class="card-subtitle mb-2 text-body-secondary">Full Stack Developer</h6>
             <h1 class="text-black fs-1 fw-bold me-5"></h1>
-            <p class="card-text"><q> I am a passionate and highly motivated person who love to take up challenges. I am currently following Bachelor of Information Technology external degree at University of Moratuwa. I am looking forward to starting my industrial training soon and make a successful career in the IT Industry.</q></p>
+            <p class="card-text"><q>As a dynamic and detail-oriented developer, I possess a strong foundation in both frontend and
+              backend development. I am eager to apply my academic knowledge and hands-on experience with
+              modern technologies to make a meaningful contribution in an internship role. I have a solid grasp of
+              web development frameworks, database management, and responsive design principles. My ability
+              to collaborate effectively across teams allows me to deliver high-quality, user-centric solutions. I
+              thrive on quickly learning new technologies and committed myself to continuous professional
+              growth in the field of software engineering.
+              </q></p>
             <a href="#" class="card-link">Whatsapp</a>
             <a href="#" class="card-link">Email</a>
           </div>
@@ -114,6 +121,7 @@
       </div>
     </div>
   </div>
+  
 </section>
 
 
@@ -218,12 +226,13 @@
       <div class="row row-cols-1 row-cols-md-3">
 
         <div class="col">
-          <div class="nft">
+          <div class="nft2">
             <div class="main">
               <img src="dspms.jpeg" class="tokenImage" id="imagecard" alt="...">
+              <br>
               <div class="card-body">
                 <h5 class="card-title">Daily Site Progress Management</h5>
-                <p class="description">I am doing this project to design and develop a computer based daily site progress management system for construction companies using C# and MySQL Visual Studio . NET Framework</p>
+                <!-- <p class="description">I am doing this project to design and develop a computer based daily site progress management system for construction companies using C# and MySQL Visual Studio . NET Framework</p> -->
              </div> 
             </div>  
           </div>
@@ -231,24 +240,26 @@
       
 
         <div class="col">
-          <div class="nft">
+          <div class="nft2">
             <div class="main">
               <img src="under-construction.png" class="tokenImage" alt="...">
+              <br>
               <div class="card-body">
                 <h5 class="card-title">Highway-bus-mate</h5>
-                <p class="description">I am creating this application to help those who use highway buses in Sri Lanka. This app will help people to view bus time table, Seat reservation, online paying for tickets, E-ticket concept</p>
+                <!-- <p class="description">I am creating this application to help those who use highway buses in Sri Lanka. This app will help people to view bus time table, Seat reservation, online paying for tickets, E-ticket concept</p> -->
               </div>
             </div>
           </div>
         </div>
       
         <div class="col">
-          <div class="nft">
+          <div class="nft2">
             <div class="main">
-              <img src="under-construction.png" class="tokenImage" alt="...">
+              <img src="todoapp.png" class="tokenImage" alt="...">
+              <br>
               <div class="card-body">
                 <h5 class="card-title">To DO list</h5>
-                <p class="description">I am creating this application to help any person to plan his upcoming days.This app willl be able to show reminders,alarms,miissed task warning...etc</p>
+                <!-- <p class="description">I am creating this application to help any person to plan his upcoming days.This app willl be able to show reminders,alarms,miissed task warning...etc</p> -->
               </div>
             </div>
           </div>  
@@ -273,27 +284,29 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="card-body card" id="contform">
-                    <form action="contact.php" method="post" class="needs-validation" novalidate>
-                        <div class="form-group">
-                            <label for="name">Name:</label>
-                            <input type="text" class="form-control" id="name" name="name" required>
-                            <div class="invalid-feedback">Please enter your name.</div>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email:</label>
-                            <input type="email" class="form-control" id="email" name="email" required>
-                            <div class="invalid-feedback">Please enter a valid email address.</div>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">Topic:</label>
-                            <input type="text" class="form-control" id="topic" name="topic">
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message:</label>
-                            <textarea class="form-control" id="message" name="message" rows="4"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary mt-3">Submit</button>
-                    </form>
+                  <form id="contact-form" class="needs-validation" novalidate>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                        <div class="invalid-feedback">Please enter your name.</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                        <div class="invalid-feedback">Please enter a valid email address.</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="topic">Topic:</label>
+                        <input type="text" class="form-control" id="topic" name="topic" required>
+                        <div class="invalid-feedback">Please enter a topic.</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                        <div class="invalid-feedback">Please enter your message.</div>
+                    </div>
+                    <button type="submit" class="btn btn-primary mt-3">Submit</button>
+                </form>
                 </div>
             </div>
             <div class="col-md-6">
@@ -308,17 +321,19 @@
      
 
 
-  <div class="text-center text-lg-start" style="background-color: #ffffff;">
-    
-    
-    <div class="text-center text-black p-3" style="background-color: rgb(255, 255, 255);">
-      <b>© 2024  Harendra Kumarasiri</b>
-    </div>
-    
-  </div>
+    <footer class="footer">
+      <div class="container text-center ">
+          <div class="p-3 text-center text-black">
+              <b>© 2024 Harendra Kumarasiri</b>
+          </div>
+      </div>
+    </footer>
 
   </section>
-  
+
+
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+    <script src="contact.js"></script>
     <script src="index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   
