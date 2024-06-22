@@ -834,3 +834,25 @@ nav.dark-mode {
   align-items: center;
   justify-content: center;  
 }
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto; 
+
+}
+.falling-leaves-page{
+  position: relative;
+  margin-top: -12px;
+  
+  overflow: hidden;
+}
+
+.footer-home{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: auto; 
+
+}
