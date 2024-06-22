@@ -664,6 +664,14 @@ body.dark-mode #about {
   background-color: #370065;
   color: #ffffff;
 }
+body.dark-mode #contact {
+  background-color: #5f3384;
+  color: #ffffff;
+}
+body.dark-mode #projects {
+  background-color: #1e5844;
+  color: #ffffff;
+}
 
 /* important 
 .card {
@@ -715,6 +723,13 @@ nav.dark-mode {
   height: 24px;
 }
 
+.footer-dark-mode {
+  background-color: #333333;
+}
+.footer-home-dark-mode{
+  background-color: #333333;
+  color: #ffffff!
+}
 
 /* cards for toolbox  */
 
@@ -741,7 +756,7 @@ nav.dark-mode {
 }
 
 .about-image{
-  w
+  
   transition: transform 500ms ease-in-out;
   filter: drop-shadow(5px 10px 15px rgba(8, 9, 13, 0.4));
   text-align: center;
