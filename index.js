@@ -108,5 +108,7 @@ const toggleSwitch = document.getElementById('toggleSwitch');
               console.error("Failed to load navigation");
             });
           });
+
+          
        
 
