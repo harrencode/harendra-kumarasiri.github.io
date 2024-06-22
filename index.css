@@ -361,7 +361,7 @@ body {
 .nav-link:hover {
   color: #000000; 
    /* Background color on hover */
-   background-color: rgb(250, 232, 232);
+   background-color: rgb(235, 211, 255, 1);
   border-radius: 5px;  /* Add a slight border radius for a softer look */
   margin-top: -1px;  /* Create left margin for visible expansion */
   margin-bottom: -1px; /* Create right margin for visible expansion */
@@ -694,10 +694,12 @@ nav.dark-mode {
   color: #ffffff!important;
 }
 .nav-link:hover.dark-mode {
-  background-color: #000000 ;
+  background-color: #000000f6 ;
+  color: #ffffff;
 }
 .navbar-brand.dark-mode{
   color: #ffffff;
+  
 }
 
 
