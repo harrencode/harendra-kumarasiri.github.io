@@ -195,6 +195,12 @@ body {
   position: relative;
 }
 
+@media(max-width:762px){
+  .hero{
+    width:300px
+  
+  }
+}
 
 
 
@@ -206,7 +212,7 @@ body {
   margin: auto;
   margin-bottom: 50px;
   width: auto;
-  margin-left: 50px;
+  /* margin-left: 50px; */
   height: auto;
   
   
@@ -226,7 +232,7 @@ body {
 #herofull {
   width: auto;
   height: 600px;
-  margin-left: 80px;
+  /* margin-left: 80px; */
   margin-top: -30px;
   align-self: flex-end; /* Ensure the image aligns itself at the bottom */
   margin-right: 20px; /* Adjust as needed for spacing between the image and the card */
@@ -728,7 +734,7 @@ nav.dark-mode {
   color: #ffffff;
 }
 .navbar-brand.dark-mode{
-  color: #ffffff;
+  color: #ffffff!important;
   
 }
 
