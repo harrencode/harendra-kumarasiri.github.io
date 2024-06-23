@@ -14,6 +14,8 @@ $(document).ready(function() {
       const darkModeToggle = $('#dark-mode-toggle');
       const lightModeIcon = $('#dark-mode-icon-light');
       const darkModeIcon = $('#dark-mode-icon-dark');
+      const lightModeImage = $('#dark-mode-image-light');
+      const darkModeImage = $('#dark-mode-image-dark');
 
       function setDarkMode(isEnabled) {
         if (isEnabled) {
@@ -22,12 +24,16 @@ $(document).ready(function() {
           $('nav a').addClass('dark-mode');
           darkModeIcon.show();
           lightModeIcon.hide();
+          darkModeImage.show();
+          lightModeImage.hide();
         } else {
           $('body').removeClass('dark-mode');
           $('nav').removeClass('dark-mode');
           $('nav a').removeClass('dark-mode');
           darkModeIcon.hide();
           lightModeIcon.show();
+          darkModeImage.hide();
+          lightModeImage.show();
         }
       }
 
@@ -108,7 +114,3 @@ const toggleSwitch = document.getElementById('toggleSwitch');
               console.error("Failed to load navigation");
             });
           });
-
-          
-       
-

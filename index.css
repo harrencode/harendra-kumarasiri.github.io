@@ -12,6 +12,10 @@
   font-optical-sizing: auto;
   }
 
+.hidden {
+  display: none;
+}
+
 body {
   margin: 0;
   
@@ -32,7 +36,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 600;
+  font-size: 50px;
 }
 
 .poppins-regular {
