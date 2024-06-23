@@ -183,8 +183,12 @@ body {
     margin-top: 10px;
     margin: auto;
     align-items: center;
-    margin-left: opx;
+    margin-left: 0px;
 
+  }
+  #about-card {
+    margin-left: auto;
+    margin-bottom: 0px;
   }
 }
 .pushback{
@@ -198,9 +202,14 @@ body {
 
 #about-card {
   
-  width: 550px;
+  min-width: 300px;
   margin: auto;
-  min-height: 250px;
+  margin-bottom: 50px;
+  width: auto;
+  margin-left: 50px;
+  height: auto;
+  
+  
   background: rgba(255, 255, 255, 0.15);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(18px);
@@ -211,6 +220,7 @@ body {
   z-index: 10;
   color: whitesmoke;
   
+  
 }
 
 #herofull {
@@ -218,6 +228,10 @@ body {
   height: 600px;
   margin-left: 80px;
   margin-top: -30px;
+  align-self: flex-end; /* Ensure the image aligns itself at the bottom */
+  margin-right: 20px; /* Adjust as needed for spacing between the image and the card */
+ 
+  /* overflow:hidden; */
   
   
 }
