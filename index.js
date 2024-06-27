@@ -16,9 +16,11 @@ $(document).ready(function() {
       const darkModeIcon = $('#dark-mode-icon-dark');
       const lightModeImage = $('#dark-mode-image-light');
       const darkModeImage = $('#dark-mode-image-dark');
+      const modeImage = $('#mode-image');
 
       function setDarkMode(isEnabled) {
         if (isEnabled) {
+          modeImage.attr('src', 'hero2.png');
           $('body').addClass('dark-mode');
           $('nav').addClass('dark-mode');
           $('nav a').addClass('dark-mode');
@@ -27,6 +29,7 @@ $(document).ready(function() {
           darkModeImage.show();
           lightModeImage.hide();
         } else {
+          modeImage.attr('src', 'hero1.png');
           $('body').removeClass('dark-mode');
           $('nav').removeClass('dark-mode');
           $('nav a').removeClass('dark-mode');
